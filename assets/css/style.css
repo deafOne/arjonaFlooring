@@ -204,46 +204,6 @@ color: #FFFFFF;
 
 
 /*=======================================
-    PRICE SECTION STYLES
-==================================================*/
-
-.plan {
-    background: #fff;
-    padding: 0 0 15px 0;
-    margin: 30px 0px;
-    list-style: none;
-    text-align: center;
-  
-}
-
-
-
-.plan li {
- padding: 15px 0px;
-color: #000000;
-font-size: 15px;
-}
-
-.plan li.plan-head {
-   padding: 15px 0px;
-color: #FFFFFF;
-line-height: 20px;
-font-size: 20px;
-font-weight: 600;
-border: none;
-   }
-
-.plan li.main-price {
-padding: 15px 0px;
-background-color: rgba(127, 115, 177, 1);
-color: #fff;
-border: none;
-font-weight: 900;
-font-size: 30px;
-}
-
-
-/*=======================================
     STATS SECTION STYLES
 ==================================================*/
 
@@ -297,9 +257,55 @@ border: 1px solid #e1e1e1;
     text-align:right;
 }
 
+/*=======================================
+    RESPONSIVE STYLING
+==================================================*/
 
+ /*@media screen and (max-width: 992px) {
 
+  }
 
+  @media screen and (max-width: 768px) {
+
+  } */
+
+  @media screen and (max-width: 480px) {
+   .head-main, .stats-div > h3 {
+    font-size: 28px;
+ }
+   #contact-sec{
+    padding-bottom: 40px;
+ }
+    #contact-sec h1{
+    font-size: 30px;
+    padding: 0px;
+ }
+   .add{
+    font-size: 16px;
+    margin-bottom: 30px;
+ }
+    #footer {
+        font-size: 10px;
+  }
+  }
+  @media screen and (max-width: 360px) {
+       .head-main, .stats-div > h3 {
+    font-size: 20px;
+ }
+   #contact-sec{
+    padding-bottom: 40px;
+ }
+    #contact-sec h1{
+    font-size: 22px;
+ }
+   .add{
+    font-size: 17px;
+    margin-bottom: 30px;
+ }
+    #footer {
+        font-size: 15px;
+  }
+  }
 
 
 
