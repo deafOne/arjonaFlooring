@@ -265,25 +265,51 @@ border: 1px solid #e1e1e1;
     RESPONSIVE STYLING
 ==================================================*/
 
- /*@media screen and (max-width: 992px) {
-
+ @media screen and (max-width: 992px) {
+    .head-main {
+    font-size: 55px;
+}
+    .stats-div > h3 {
+    font-size: 45px;
+    }
+    #contact-sec h1{
+    font-size: 65px;
+    padding: 0px;
+ }
+     #contact-sec h4 {
+    margin-bottom: 70px;
+}
   }
 
   @media screen and (max-width: 768px) {
-
-  } */
+    .head-main{
+        font-size: 26px;
+       }
+    #contact-sec h1{
+    font-size: 60px;
+    padding: 0px;
+ }
+     #contact-sec h4 {
+    margin-bottom: 80px;
+}
+ .stats-div > h3 {
+    font-size: 53px;
+  }
 
   @media screen and (max-width: 480px) {
    .head-main, .stats-div > h3 {
-    font-size: 28px;
- }
+    font-size: 33px;
+    }
    #contact-sec{
     padding-bottom: 40px;
  }
     #contact-sec h1{
-    font-size: 30px;
+    font-size: 40px;
     padding: 0px;
  }
+     #contact-sec h4 {
+    margin-bottom: 80px;
+}
    .add{
     font-size: 16px;
     margin-bottom: 30px;
@@ -309,6 +335,9 @@ border: 1px solid #e1e1e1;
     #contact-sec h1{
     font-size: 30px;
  }
+    #contact-sec h4 {
+    margin-bottom: 70px;
+}
     #contact-sec .icon-round {
         width: 96px;
     }
@@ -317,7 +346,7 @@ border: 1px solid #e1e1e1;
     }
 
    .add{
-    font-size: 17px;
+    font-size: 18px;
     margin-bottom: 30px;
  }
     #footer {
