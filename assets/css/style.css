@@ -21,6 +21,16 @@ body {
     background-color:#ECECEC;
 }
 
+a{ 
+text-decoration: none;
+color:blue;
+ }
+ a:hover{ 
+text-decoration: none;
+color:red;
+ }
+
+
 h1, h2, h3, h4, h5, h6 {
     font-family:'Open Sans', sans-serif;
 }
@@ -31,7 +41,7 @@ h1 {
     font-size:40px;
     padding:50px 20px 5px 20px;
     text-transform:uppercase;
-    color:rgba(0, 121, 138, 1);
+    color:orangered;
 }
 
 
@@ -62,6 +72,10 @@ font-weight: 900;
 p {
     font-weight:300;
     line-height:30px;
+}
+
+.img-circle {
+    border-radius: 50%;
 }
 
 .space-free {
@@ -100,6 +114,7 @@ text-align: center;
 display: inline-block;
 border-radius: 100%;
 margin-bottom: 10px;
+border: 4px solid white;
 }
 .bk-color-red {
     background-color:#ff0000;
@@ -168,6 +183,7 @@ height: auto;
 .head-main {
     font-size:65px ;
     font-weight:900;
+    font-family: 'Homemade Apple', cursive;"
     
 }
 
@@ -247,7 +263,10 @@ border: 1px solid #e1e1e1;
 .add {
     font-size:20px;
     font-weight:800;
-    padding:30px;
+    padding:30px
+}
+#contact-sec h1{
+  padding:0;
 }
 /*=======================================
     FOOTER STYLES
@@ -321,6 +340,17 @@ border: 1px solid #e1e1e1;
         font-size: 10px;
   }
   }
+  @media screen and (max-width: 414px){
+    .stats-div > h3 {
+    font-size: 28px;
+  }
+    #contact-sec h1{
+        font-size: 32px;
+    }
+    #contact-sec i{
+        font-size: 20px;
+  }
+}
   @media screen and (max-width: 375px) {
        .head-main{
         font-size: 26px;
