@@ -18,16 +18,21 @@
 body {
           font-family:'Open Sans', sans-serif;
     font-size:14px;
-    background-color:#ECECEC;
+    background: linear-gradient(to right, lightgray, black);;
+
 }
 
 a{ 
 text-decoration: none;
-color:blue;
+color:red;
+font-weight: 600;
  }
+
  a:hover{ 
 text-decoration: none;
-color:red;
+color: white;
+opacity: 0.8;
+font-weight: 900;
  }
 
 
@@ -41,7 +46,7 @@ h1 {
     font-size:40px;
     padding:50px 20px 5px 20px;
     text-transform:uppercase;
-    color:orangered;
+    color:white;
 }
 
 
@@ -115,6 +120,7 @@ display: inline-block;
 border-radius: 100%;
 margin-bottom: 10px;
 border: 4px solid white;
+opacity: 0.8;
 }
 .bk-color-red {
     background-color:#ff0000;
@@ -155,6 +161,33 @@ border-top-right-radius: 0px;
 border-radius: 0px; 
 
 }
+
+
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 40%;
+    border: 2px solid white;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+    opacity: 0.8;
+    border-radius: 15px;
+}
+
+.active, .collapsible:hover {
+    background-color: #555;
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background: inherit;
+
+}
 /*=======================================
     HOME SECTION STYLES
 ==================================================*/
@@ -180,6 +213,11 @@ height: auto;
    min-height:650px;
     color:#fff;
 }
+
+#home-sec h2 {
+padding-top: 125px;
+}
+
 .head-main {
     font-size:65px ;
     font-weight:900;
@@ -187,6 +225,13 @@ height: auto;
     
 }
 
+#services-sec {
+  color:white;
+}
+
+#services-sec h2{
+font-family: 'Homemade Apple', cursive;"
+}
 
 /* ===========================================================
    NAVBAR CHANGES   
