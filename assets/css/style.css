@@ -349,6 +349,9 @@ border: 1px solid #e1e1e1;
     .head-main{
         font-size: 26px;
        }
+       .collapsible{
+        width:50%;
+       }
     #contact-sec h1{
     font-size: 60px;
     padding: 0px;
@@ -356,13 +359,20 @@ border: 1px solid #e1e1e1;
      #contact-sec h4 {
     margin-bottom: 80px;
 }
- .stats-div > h3 {
-    font-size: 53px;
-  }
 
+#services-sec h2{
+  font-size: 22px;
+}
+ .stats-div > h3 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+#footer{
+  font-size: 12px;
+}
   @media screen and (max-width: 480px) {
    .head-main, .stats-div > h3 {
-    font-size: 33px;
+    font-size: 28px;
     }
    #contact-sec{
     padding-bottom: 40px;
@@ -374,9 +384,13 @@ border: 1px solid #e1e1e1;
      #contact-sec h4 {
     margin-bottom: 80px;
 }
+#services-sec h2{
+  text-align: center;
+}
    .add{
     font-size: 16px;
     margin-bottom: 30px;
+    padding:0;
  }
  .col-xs-4 {
     margin-right: -9px;
@@ -387,7 +401,7 @@ border: 1px solid #e1e1e1;
   }
   @media screen and (max-width: 414px){
     .stats-div > h3 {
-    font-size: 28px;
+    font-size: 23px;
   }
     #contact-sec h1{
         font-size: 32px;
@@ -395,14 +409,13 @@ border: 1px solid #e1e1e1;
     #contact-sec i{
         font-size: 20px;
   }
+  .add i {
+    color: black;
+}
 }
   @media screen and (max-width: 375px) {
-       .head-main{
-        font-size: 26px;
-       }
-
-    .stats-div > h3 {
-    font-size: 25px;
+       .head-main,.stats-div > h3{
+        font-size: 21px;
  }
    #contact-sec{
     padding-bottom: 40px;
@@ -416,6 +429,12 @@ border: 1px solid #e1e1e1;
     #contact-sec .icon-round {
         width: 96px;
     }
+    .collapsible {
+    width: 75%;
+}
+  p.content a{
+    font-size: 15px;
+}
     .col-md-4.col-xs-4 {
         padding: none;
     }
