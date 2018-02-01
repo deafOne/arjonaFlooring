@@ -415,7 +415,7 @@ border: 1px solid #e1e1e1;
 }
   @media screen and (max-width: 375px) {
        .head-main,.stats-div > h3{
-        font-size: 21px;
+        font-size: 20px;
  }
    #contact-sec{
     padding-bottom: 40px;
