@@ -37,7 +37,7 @@ font-weight: 900;
 
 
 h1, h2, h3, h4, h5, h6 {
-    font-family:'Open Sans', sans-serif;
+font-family: 'Ropa Sans', sans-serif;
 }
 
 h1 {
@@ -75,6 +75,7 @@ font-weight: 900;
 }
 
 p {
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
     font-weight:300;
     line-height:30px;
 }
@@ -110,9 +111,9 @@ section {
 .icon-round {
 margin-top: 30px;
 font-size: 60px;
-height: 128px;
+height: 110px;
 width: 128px;
-line-height: 130px;
+line-height: 110px;
 color: #fff;
 margin-right: 10px;
 text-align: center;
@@ -392,6 +393,10 @@ border: 1px solid #e1e1e1;
     margin-bottom: 30px;
     padding:0;
  }
+ .icon-round {
+  height: 90px;
+  line-height: 90px;
+}
  .col-xs-4 {
     margin-right: -9px;
 }
@@ -411,6 +416,11 @@ border: 1px solid #e1e1e1;
   }
   .add i {
     color: black;
+}
+.icon-round {
+  height: 110px;
+  line-height: 110px;
+  width:100px;
 }
 }
   @media screen and (max-width: 375px) {
@@ -438,6 +448,10 @@ border: 1px solid #e1e1e1;
     .col-md-4.col-xs-4 {
         padding: none;
     }
+    .icon-round {
+  height: 90px;
+  line-height: 90px;
+}
 
    .add{
     font-size: 18px;
@@ -446,8 +460,7 @@ border: 1px solid #e1e1e1;
     #footer {
         font-size: 15px;
   }
-  }
-
+}
 
 
 
