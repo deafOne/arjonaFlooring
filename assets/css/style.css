@@ -219,7 +219,7 @@ height: auto;
 }
 
 #home-sec h2 {
-padding-top: 25px;
+
 }
 
 .head-main {
@@ -390,6 +390,9 @@ border: 1px solid #e1e1e1;
      #contact-sec h4 {
     margin-bottom: 80px;
 }
+    #contact-sec i{
+        text-shadow: 0 0 20px white;
+  }
 #services-sec h2{
   text-align: center;
 }
@@ -418,6 +421,7 @@ border: 1px solid #e1e1e1;
     }
     #contact-sec i{
         font-size: 20px;
+        text-shadow: 0 0 20px white;
   }
   .add i {
     color: black;
@@ -444,6 +448,9 @@ border: 1px solid #e1e1e1;
     #contact-sec .icon-round {
         width: 96px;
     }
+        #contact-sec i{
+        text-shadow: 0 0 20px white;
+  }
     .collapsible {
     width: 75%;
 }
